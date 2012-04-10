@@ -15,10 +15,6 @@ Help & feedback are both appreciated! ;-)
 
 ## Screenshots
 
-Tabs on top:
-
-![Screenshot](adwaita-firefox/raw/master/screenshots/screenshot-tabs-on-top.png)
-
 Tabs on bottom:
 
-![Screenshot](adwaita-firefox/raw/master/screenshots/screenshot-tabs-on-bottom.png)
+![Screenshot](GNOME-Firefox/raw/master/screenshots/Tabsonbottom.png)
