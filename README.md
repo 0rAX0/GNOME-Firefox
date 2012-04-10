@@ -1,5 +1,7 @@
 ## GNOME 3 Adwaita theme for Firefox with better looking icons.
 
+
+Forked from : 
 Original extension:
 https://addons.mozilla.org/en-US/firefox/addon/adwaita/
 
