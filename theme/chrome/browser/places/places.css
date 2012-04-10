@@ -42,7 +42,7 @@ treechildren::-moz-tree-image(title, separator) {
 }
 
 treechildren::-moz-tree-image(title, container) {
-  list-style-image: url("moz-icon://stock/gtk-directory?size=menu");
+  list-style-image: url("chrome://browser/skin/folder.png");
 }
 
 treechildren::-moz-tree-image(title, container, livemark) {

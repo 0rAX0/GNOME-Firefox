@@ -6,8 +6,11 @@
  *  Updated by: Michael Ventnor <m.ventnor@gmail.com>
  */
 
+
 html {
-  background: -moz-Dialog;
+  background-image: -moz-linear-gradient(top, #b3cbe5 1%, white 50%);
+  height: 100%;
+
 }
 
 body {
@@ -15,12 +18,15 @@ body {
   padding: 0 1em;
   color: -moz-FieldText;
   font: message-box;
+  height: 100%;
+
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: 1px solid ThreeDLightShadow;
-  font-size: 160%;
+  border-bottom: none;
+  font-size: 200%;
+  font-family: Cantarell;
 }
 
 ul, ol {
@@ -41,12 +47,12 @@ ul {
   position: relative;
   min-width: 13em;
   max-width: 52em;
-  margin: 4em auto;
-  border: 1px solid ThreeDShadow;
+  margin: 6em auto;
+  border: none;
   border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
-  background: url("moz-icon://stock/gtk-dialog-warning?size=dialog") left 0 no-repeat -moz-Field;
+  background: none;
   background-origin: content-box;
 }
 
@@ -68,7 +74,7 @@ body[dir="rtl"] #errorPageContainer {
 
 #errorShortDesc > p {
   overflow: auto;
-  border-bottom: 1px solid ThreeDLightShadow;
+  border-bottom: none;
   padding-bottom: 1em;
   font-size: 130%;
   white-space: pre-wrap;
@@ -139,3 +145,5 @@ body[dir="rtl"] #brand {
 :root.blacklist #errorTryAgain {
   display: none;
 }
+
+

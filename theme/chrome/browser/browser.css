@@ -176,7 +176,7 @@ menuitem.bookmark-item {
 }
 
 .bookmark-item[container] {
-  list-style-image: url("moz-icon://stock/gtk-directory?size=menu");
+  list-style-image: url("chrome://browser/skin/folder.png");
 }
 
 .bookmark-item[container][livemark] { 
@@ -277,14 +277,14 @@ menuitem:not([type]):not(.menuitem-tooltip):not(.menuitem-iconic-tooltip) {
 
 #appmenu_printPreview,
 #menu_printPreview {
-  list-style-image: url("moz-icon://stock/gtk-print-preview?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/print.svg");
 }
 
 #appmenu_print,
 #appmenu_print_popup,
 #menu_print,
 #context-printframe {
-  list-style-image: url("moz-icon://stock/gtk-print?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/print.svg");
 }
 
 #appmenu-quit,
@@ -399,7 +399,7 @@ menuitem:not([type]):not(.menuitem-tooltip):not(.menuitem-iconic-tooltip) {
 #placesContext_reload,
 #context-reload,
 #context-reloadframe {
-  list-style-image: url("chrome://browser/skin/symbolic/refresh.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/refresh.svg");
 }
 
 #menu_reload[disabled],
@@ -408,15 +408,15 @@ menuitem:not([type]):not(.menuitem-tooltip):not(.menuitem-iconic-tooltip) {
 }
 
 #menu_zoomEnlarge {
-  list-style-image: url("moz-icon://stock/gtk-zoom-in?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-in.svg");
 }
 
 #menu_zoomReduce {
-  list-style-image: url("moz-icon://stock/gtk-zoom-out?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-out.svg");
 }
 
 #menu_zoomReset {
-  list-style-image: url("moz-icon://stock/gtk-zoom-100?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-original.svg");
 }
 
 #historyMenuBack,
@@ -460,7 +460,7 @@ menuitem:not([type]):not(.menuitem-tooltip):not(.menuitem-iconic-tooltip) {
 }
 
 #historyMenuHome {
-  list-style-image: url("chrome://browser/skin/symbolic/home.svg");}
+  list-style-image: url("chrome://browser/skin/symbolic-icons/home.svg");}
 
 #appmenu_history,
 #appmenu_showAllHistory,
@@ -617,7 +617,7 @@ margin-right: -21px;
 
 /* 24px primary toolbar buttons */
 #back-button {
-  list-style-image: url("chrome://browser/skin/symbolic/back-button.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/back-button.svg");
   padding-right: 15px !important;
 }
 
@@ -626,7 +626,7 @@ margin-right: -21px;
 }
 
 #back-button:-moz-locale-dir(rtl) {
-  list-style-image: url("chrome://browser/skin/symbolic/forward-button.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button.svg");
 }
 
 #back-button[disabled="true"]:-moz-locale-dir(rtl) {
@@ -635,12 +635,12 @@ margin-right: -21px;
 
 #forward-button {
   padding-right: 10px;
-  list-style-image: url("chrome://browser/skin/symbolic/forward-button.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button.svg");
   -moz-padding-end: 2px!important;
 }
 
 #forward-button:-moz-locale-dir(rtl) {
-  list-style-image: url("chrome://browser/skin/symbolic/back-button.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/back-button.svg");
 }
 
 #forward-button[disabled] {
@@ -653,7 +653,7 @@ margin-right: -21px;
 }
 
 #reload-button {
-  list-style-image: url("chrome://browser/skin/symbolic/refresh.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/refresh.svg");
 }
 
 #reload-button[disabled="true"] {
@@ -661,7 +661,7 @@ margin-right: -21px;
 }
 
 #stop-button {
-  list-style-image: url("chrome://browser/skin/symbolic/stop.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/stop.svg");
 }
 
 #stop-button[disabled="true"] {
@@ -669,7 +669,7 @@ margin-right: -21px;
 }
 
 #home-button {
-  list-style-image: url("chrome://browser/skin/symbolic/home.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/home.svg");
 }
 #home-button[disabled="true"] {
   opacity: 0.5;
@@ -704,11 +704,11 @@ margin-right: -21px;
 }
 
 #downloads-button {
-  list-style-image: url("chrome://browser/skin/symbolic/Download.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/Download.svg");
 }
 
 #history-button {
-  list-style-image: url("chrome://browser/skin/symbolic/History.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/History.svg");
 }
 
 #bookmarks-button,
@@ -725,7 +725,7 @@ margin-right: -21px;
 }
 
 #print-button {
-  list-style-image: url("moz-icon://stock/gtk-print?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/print.svg");
 }
 #print-button[disabled="true"] {
   list-style-image: url("moz-icon://stock/gtk-print?size=toolbar&state=disabled");
@@ -949,9 +949,6 @@ toolbar[iconsize="small"] #feed-button {
   display: none;
 }
 #restore-button {
-  /*
-  list-style-image: url("chrome://global/skin/icons/Restore.gif");
-  */
   list-style-image: url("moz-icon://stock/gtk-leave-fullscreen?size=menu");
 }
 #close-button {
@@ -960,25 +957,16 @@ toolbar[iconsize="small"] #feed-button {
 }
 
 /* Location bar */
-/*
-#urlbar {
-  width: 7em;
-  min-width: 7em;
-  -moz-appearance: textfield;
-  padding: 0;
-}
-*/
 
-/* remove ugly white border around location and searchbars */
 #urlbar,
 .searchbar-textbox {
  -moz-appearance: none;
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0,0,0,.25);
   border-radius: 3px;
-  background: #FFFFFF;
+  background-image: -moz-linear-gradient(top, #f2f2f2, #fdfdfd);
   padding: 2px;
-  box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.35),
-  0px 1px 0 0 rgba(255,255,255,0.89);
+  box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.15),
+  		    0px 1px 0 0 rgba(255,255,255,0.89);
 }
 
 #urlbar[focused="true"],
@@ -994,7 +982,6 @@ toolbar[iconsize="small"] #feed-button {
 }
 
 .urlbar-history-dropmarker {
-/*  -moz-appearance: toolbarbutton-dropdown;*/
 	display: none;
 }
 
@@ -1417,11 +1404,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #go-button {
-  list-style-image: url("chrome://browser/skin/symbolic/Go.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.svg");
 }
 
 #urlbar-go-button {
-  list-style-image: url("chrome://browser/skin/symbolic/Go.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.svg");
 }
 
 #go-button:-moz-locale-dir(rtl) > .toolbarbutton-icon,
@@ -1430,11 +1417,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #urlbar-reload-button {
-  list-style-image: url("chrome://browser/skin/symbolic/refresh.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/refresh.svg");
 }
 
 #urlbar-stop-button {
-  list-style-image: url("chrome://browser/skin/symbolic/stop.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/stop.svg");
 }
 
 #urlbar-go-button,
@@ -1454,12 +1441,12 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 /* Star button */
 #star-button {
   padding: 1px;
-  list-style-image: url("chrome://browser/skin/symbolic/add-bookamrk.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/add-bookamrk.svg");
   opacity: 0.5;
 }
 
 #star-button[starred="true"] {
-  list-style-image: url("chrome://browser/skin/symbolic/added-bookmark.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/added-bookmark.svg");
   opacity: 0.7;
 }
 
@@ -1567,6 +1554,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 /* put some space between the newtab-button and regular tabs */
 .tabs-newtab-button
 {
+
   margin-left: 10px; 
 }
 
@@ -1760,30 +1748,22 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 .tab-close-button {
-  /*
-  list-style-image: url("moz-icon://stock/gtk-close?size=menu");
-  */
   list-style-image: url(chrome://browser/skin/tabbrowser/close-normal.png);
   -moz-margin-end: -5px;
   padding: 5px;
   border-radius: 3px;
   border: 1px solid transparent;
 }
+
 .tab-close-button:hover {
   list-style-image: url(chrome://browser/skin/tabbrowser/close-hover.png);
   background: none;
   border-color: rgba(0, 0, 0, 0.1);
 }
+
 .tab-close-button:active {
   list-style-image: url(chrome://browser/skin/tabbrowser/close-active.png);
-  /*
-  background: -moz-linear-gradient(top, #dadada 1px, #e6e6e6 2px, #e8e8e8 100%)
-  background: rgba(0, 0, 0, 0.1);
-  */
   background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.13) 1px, rgba(0, 0, 0, 0.08) 2px, rgba(0, 0, 0, 0.07) 100%);
-  /*
-  padding: 4px 4px 2px 2px;
-  */
   border-color: rgba(0, 0, 0, 0.12);
   border-color-top: rgba(0, 0, 0, 0.27);
 }
@@ -1792,28 +1772,8 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tabs-newtab-button,
 #TabsToolbar > #new-tab-button ,
 #TabsToolbar > #wrapper-new-tab-button > #new-tab-button {
-  list-style-image: url("moz-icon://stock/gtk-add?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/add.svg");
   -moz-image-region: auto;
-}
-
-/* Tabstrip close button */
-.tabs-closebutton {
-  /*
-  list-style-image: url("moz-icon://stock/gtk-close?size=menu");
-  */
-  list-style-image: url(chrome://browser/skin/tabbrowser/close-normal.png);
-}
-.tabs-closebutton:hover {
-  list-style-image: url(chrome://browser/skin/tabbrowser/close-hover.png);
-}
-.tabs-closebutton:active {
-  list-style-image: url(chrome://browser/skin/tabbrowser/close-active.png);
-}
-
-.tabs-closebutton > .toolbarbutton-icon {
-  /* XXX Buttons have padding in widget/ that we don't want here but can't override with good CSS, so we must
-     use evil CSS to give the impression of smaller content */
-  margin: -2px;
 }
 
 /* Tabbrowser arrowscrollbox arrows */
@@ -2027,15 +1987,15 @@ toolbar[mode="text"] toolbarbutton.chevron > .toolbarbutton-icon {
 }
 #appmenu-cut,
 #appmenu-editmenu-cut {
-  list-style-image: url("moz-icon://stock/gtk-cut?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/cut.svg");
 }
 #appmenu-copy,
 #appmenu-editmenu-copy {
-  list-style-image: url("moz-icon://stock/gtk-copy?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/copy.svg");
 }
 #appmenu-paste,
 #appmenu-editmenu-paste {
-  list-style-image: url("moz-icon://stock/gtk-paste?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/paste.svg");
 }
 #wrapper-appmenu-toolbar-button,
 .appmenu-edit-button[disabled="true"] {

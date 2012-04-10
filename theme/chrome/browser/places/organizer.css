@@ -1,16 +1,27 @@
 
 /* Toolbar */
 #placesToolbar {
-  border: none;
+-moz-appearance: inherit;
+  border-top: none;
 }
+
+#searchFilter{
+
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    background-color: rgba(255,255,255,0.5);
+}
+
+#placesList > stack
+{ background-color: #EDECEB;}
 
 /* back button */
 
 #back-button {
-  list-style-image: url("moz-icon://stock/gtk-go-back-ltr?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic/back-button.svg");
 }
 #back-button[disabled="true"] {
-  list-style-image: url("moz-icon://stock/gtk-go-back-ltr?size=toolbar&state=disabled");
+
 }
 
 #back-button:-moz-locale-dir(rtl) {
@@ -23,10 +34,10 @@
 /* forward button */
 
 #forward-button {
-  list-style-image: url("moz-icon://stock/gtk-go-forward-ltr?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic/forward-button.svg");
 }
 #forward-button[disabled="true"] {
-  list-style-image: url("moz-icon://stock/gtk-go-forward-ltr?size=toolbar&state=disabled");
+
 }
 
 #forward-button:-moz-locale-dir(rtl) {
