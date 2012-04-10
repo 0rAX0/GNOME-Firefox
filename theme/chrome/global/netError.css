@@ -1,14 +1,5 @@
-/*
- *  This defines the look-and-feel styling of the error pages.
- *  (see: netError.xhtml)
- *
- *  Original styling by William Price <bugzilla@mob.rice.edu>
- *  Updated by: Michael Ventnor <m.ventnor@gmail.com>
- */
-
-
 html {
-  background-image: -moz-linear-gradient(top, #b3cbe5 1%, white 50%);
+  background-image: -moz-linear-gradient(top, #b3cbe5 1%, white 80%, #D1D8CD 20%);
   height: 100%;
 
 }
@@ -18,14 +9,14 @@ body {
   padding: 0 1em;
   color: -moz-FieldText;
   font: message-box;
-  height: 100%;
+  height: 90%;
 
 }
 
 h1 {
   margin: 0 0 .6em 0;
   border-bottom: none;
-  font-size: 200%;
+  font-size: 230%;
   font-family: Cantarell;
 }
 
@@ -44,17 +35,30 @@ ul {
 }
 
 #errorPageContainer {
-  position: relative;
+  position: static;
   min-width: 13em;
-  max-width: 52em;
-  margin: 6em auto;
+  max-width: 100%;
+  margin: 3em auto;
+  height: 76%;
   border: none;
   border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
-  background: none;
+  background: url("chrome://global/skin/grass.png") repeat-x ;
+  background-position: bottom;
   background-origin: content-box;
+  font-family: Cantarell;
+  text-align: left;
 }
+
+#errorPageContainer > #errorLongContent{
+   padding-left: 80px ;
+}
+
+#errorPageContainer  h1{
+   padding-left: 80px ;
+}
+
 
 #errorPageContainer.certerror {
   background-image: url("chrome://global/skin/icons/sslWarning.png");
@@ -76,13 +80,14 @@ body[dir="rtl"] #errorPageContainer {
   overflow: auto;
   border-bottom: none;
   padding-bottom: 1em;
-  font-size: 130%;
+  font-size: 140%;
   white-space: pre-wrap;
 }
 
 #errorLongDesc {
   -moz-padding-end: 3em;
-  font-size: 110%;
+  font-size: 130%;
+
 }
 
 #errorLongDesc > p {
@@ -146,4 +151,4 @@ body[dir="rtl"] #brand {
   display: none;
 }
 
-
+a
