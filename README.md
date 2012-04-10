@@ -1,4 +1,4 @@
-# GNOME 3 Adwaita theme for Firefox with better looking icons.
+# GNOME 3 theme for Firefox, with better integration.
 ---
 
 ###Forked from : 
