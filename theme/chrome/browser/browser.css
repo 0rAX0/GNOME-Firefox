@@ -634,7 +634,7 @@ margin-right: -21px;
 }
 
 #forward-button {
-  padding-right: 10px;
+/*  padding-right: 10px; */
   list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button.svg");
   -moz-padding-end: 14px!important;
 }
