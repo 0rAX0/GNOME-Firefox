@@ -1441,7 +1441,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 /* Star button */
 #star-button {
   padding: 1px;
-  list-style-image: url("chrome://browser/skin/symbolic-icons/add-bookamrk.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/add-bookmark.svg");
   opacity: 0.5;
 }
 
