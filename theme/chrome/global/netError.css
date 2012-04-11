@@ -38,13 +38,12 @@ ul {
 #errorPageContainer {
   position: relative;
   min-width: 13em;
-  max-width: 45em;
-  margin: 3em auto;
+  max-width: 65em;
+  margin: auto;
   padding: 3em;
-  -moz-padding-start: 30px;
+  -moz-padding-start: 5emx;
   text-align: left;
-  right: 12em;
-       color: #2e3436;
+  color: #2e3436;
 }
 
 #errorPageContainer > #errorLongContent{
