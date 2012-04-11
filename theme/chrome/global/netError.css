@@ -1,25 +1,24 @@
 html {
-  background-image: -moz-linear-gradient(top, #b3cbe5 , white 75%, #D1D8CD 0%);
-  height: 100%;
-  min-height: 580px;
-  max-height: 580px;
-  background-repeat: no-repeat;
+
 }
 
 body {
   margin: 0;
   padding: 0;
-  color: -moz-FieldText;
-  font-family: Cantarell;
-  height: 100%;
-  background-image: url("chrome://global/skin/images/grass.png"), url("chrome://global/skin/images/404.png")  ;
-background: repeat-x, no-repeat;
-  background-position: 0 360px, 120px 220px;
+          font: 11pt cantarell;
+        color: #2e3436;
+        padding: 20px 20px 0 20px;
+        background-color: #f6f6f4;
+        background-image: -moz-linear-gradient(top, #eeeeec, #f6f6f4);
+        background-size: 100% 5em;
+        background-repeat: no-repeat;
 }
 
 h1 {
-  margin: 0 0 .6em 0;
-  font-size: 150%;
+  color: #babdb6;
+  text-shadow: 0 1px 0 white;
+  margin: 0 0 1.5em 0;
+  font-size: 160%;
 }
 
 ul, ol {
@@ -37,13 +36,15 @@ ul {
 }
 
 #errorPageContainer {
-  position: static;
+  position: relative;
   min-width: 13em;
-  max-width: 100%;
+  max-width: 45em;
   margin: 3em auto;
   padding: 3em;
   -moz-padding-start: 30px;
   text-align: left;
+  right: 12em;
+       color: #2e3436;
 }
 
 #errorPageContainer > #errorLongContent{
@@ -76,6 +77,7 @@ body[dir="rtl"] #errorPageContainer {
   padding-bottom: 1em;
   font-size: 110%;
   white-space: pre-wrap;
+
 }
 
 #errorLongDesc {
@@ -89,7 +91,16 @@ body[dir="rtl"] #errorPageContainer {
 
 #errorTryAgain {
   margin-top: 2em;
-  -moz-margin-start: 80px;
+  float: right;
+  -moz-appearance: none;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: rgba(0,0,0,.2);
+  border-left: 1px solid rgba(0,0,0,.15) ;
+  box-shadow: 0 1px 0 rgba(255,255,255,1)inset ,
+              0 1px rgba(255,255,255,1);
+  background-image: -moz-linear-gradient(#F5F5F5, #DCDCDC);
+  padding: 4px 9px ;
 }
 
 #brand {
