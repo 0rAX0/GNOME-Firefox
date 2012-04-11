@@ -41,3 +41,8 @@ body[dir="rtl"] #moreInfo {
 #moreInfoLinkContainer {
   margin-top: 0.5em;
 }
+
+a#moreInfoLink
+{
+  color: rgb(46,52,54) !important;
+}
