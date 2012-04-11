@@ -630,7 +630,7 @@ margin-right: -21px;
 }
 
 #back-button[disabled="true"]:-moz-locale-dir(rtl) {
-  list-style-image: url("moz-icon://stock/gtk-go-back-rtl?size=toolbar&state=disabled");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button-disabled.svg");
 }
 
 #forward-button {
