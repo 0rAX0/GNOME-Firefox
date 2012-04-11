@@ -649,7 +649,7 @@ margin-right: -21px;
 }
 
 #forward-button[disabled]:-moz-locale-dir(rtl) {
-
+  list-style-image: url("chrome://browser/skin/symbolic-icons/back-button-disabled.svg");
 }
 
 #reload-button {
