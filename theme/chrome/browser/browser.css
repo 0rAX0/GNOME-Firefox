@@ -622,7 +622,7 @@ margin-right: -21px;
 }
 
 #back-button[disabled="true"] {
-
+  list-style-image: url("chrome://browser/skin/symbolic-icons/back-button-disabled.svg");
 }
 
 #back-button:-moz-locale-dir(rtl) {
@@ -644,7 +644,7 @@ margin-right: -21px;
 }
 
 #forward-button[disabled] {
-
+  list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button-disabled.svg");
     -moz-padding-end: 50px !important;
 }
 
