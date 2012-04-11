@@ -20,7 +20,7 @@ body.normal > #errorPageContainer {
 }
 
 #footerDesc > p {
-  font-size: 110%; /* to match the value set in chrome://global/skin/netError.css */
+  font-size: 100%; /* to match the value set in chrome://global/skin/netError.css */
 }
 
 #moreInfo {
