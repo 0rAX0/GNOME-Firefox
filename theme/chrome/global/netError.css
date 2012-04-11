@@ -87,6 +87,7 @@ body[dir="rtl"] #errorPageContainer {
 }
 
 #errorLongDesc > p {
+  padding-bottom: 1em;
 }
 
 #errorTryAgain {
