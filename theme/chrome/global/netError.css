@@ -1,6 +1,5 @@
 html {
   background-image: -moz-linear-gradient(top, #b3cbe5 , white 75%, #D1D8CD 0%);
-  background: no-repeat;
   height: 100%;
   min-height: 580px;
   max-height: 580px;
@@ -13,15 +12,14 @@ body {
   color: -moz-FieldText;
   font-family: Cantarell;
   height: 100%;
-  background-image: url("chrome://global/skin/grass.png"), url("chrome://global/skin/404.svg")  ;
+  background-image: url("chrome://global/skin/images/grass.png"), url("chrome://global/skin/images/404.png")  ;
 background: repeat-x, no-repeat;
   background-position: 0 360px, 120px 220px;
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  font-size: 230%;
-  font-family: Cantarell;
+  font-size: 150%;
 }
 
 ul, ol {
@@ -43,7 +41,6 @@ ul {
   min-width: 13em;
   max-width: 100%;
   margin: 3em auto;
-
   padding: 3em;
   -moz-padding-start: 30px;
   text-align: left;
@@ -77,13 +74,13 @@ body[dir="rtl"] #errorPageContainer {
 #errorShortDesc > p {
   overflow: auto;
   padding-bottom: 1em;
-  font-size: 140%;
+  font-size: 110%;
   white-space: pre-wrap;
 }
 
 #errorLongDesc {
   -moz-padding-end: 3em;
-  font-size: 130%;
+  font-size: 100%;
 
 }
 
