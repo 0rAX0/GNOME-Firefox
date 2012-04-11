@@ -12,6 +12,7 @@ body {
         background-image: -moz-linear-gradient(top, #eeeeec, #f6f6f4);
         background-size: 100% 5em;
         background-repeat: no-repeat;
+        ::-moz-selection{background:red; color:#fff;}
 }
 
 h1 {
