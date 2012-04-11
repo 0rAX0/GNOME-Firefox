@@ -636,7 +636,7 @@ margin-right: -21px;
 #forward-button {
   padding-right: 10px;
   list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button.svg");
-  -moz-padding-end: 2px!important;
+  -moz-padding-end: 14px!important;
 }
 
 #forward-button:-moz-locale-dir(rtl) {
@@ -1533,7 +1533,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 #TabsToolbar {
   -moz-appearance: none;
   min-height: 0;
-  padding: 0 0 0 3px;
+  padding: 0 0 0 9px;
   box-shadow: 0 -1px 0 #a7a7a7 inset;
 }
 
