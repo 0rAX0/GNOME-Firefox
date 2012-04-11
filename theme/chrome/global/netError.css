@@ -1,21 +1,25 @@
 html {
-  background-image: -moz-linear-gradient(top, #b3cbe5 1%, white 80%, #D1D8CD 20%);
+  background-image: -moz-linear-gradient(top, #b3cbe5 , white 75%, #D1D8CD 0%);
+  background: no-repeat;
   height: 100%;
+  min-height: 580px;
+  max-height: 580px;
 
 }
 
 body {
   margin: 0;
-  padding: 0 1em;
+  padding: 0;
   color: -moz-FieldText;
-  font: message-box;
-  height: 90%;
-
+  font-family: Cantarell;
+  height: 100%;
+  background-image: url("chrome://global/skin/grass.png"), url("chrome://global/skin/404.svg")  ;
+background: repeat-x, no-repeat;
+  background-position: 0 360px, 120px 220px;
 }
 
 h1 {
   margin: 0 0 .6em 0;
-  border-bottom: none;
   font-size: 230%;
   font-family: Cantarell;
 }
@@ -39,13 +43,9 @@ ul {
   min-width: 13em;
   max-width: 100%;
   margin: 3em auto;
-  height: 76%;
+
   padding: 3em;
   -moz-padding-start: 30px;
-  background: url("chrome://global/skin/grass.png") repeat-x ;
-  background-position: bottom;
-  background-origin: content-box;
-  font-family: Cantarell;
   text-align: left;
 }
 
@@ -76,7 +76,6 @@ body[dir="rtl"] #errorPageContainer {
 
 #errorShortDesc > p {
   overflow: auto;
-  border-bottom: none;
   padding-bottom: 1em;
   font-size: 140%;
   white-space: pre-wrap;

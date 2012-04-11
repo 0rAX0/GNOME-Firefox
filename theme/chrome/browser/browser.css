@@ -708,7 +708,7 @@ margin-right: -21px;
 }
 
 #history-button {
-  list-style-image: url("chrome://browser/skin/symbolic-icons/History.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/History.png");
 }
 
 #bookmarks-button,
@@ -1404,11 +1404,11 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 }
 
 #go-button {
-  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.png");
 }
 
 #urlbar-go-button {
-  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.svg");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/Go.png");
 }
 
 #go-button:-moz-locale-dir(rtl) > .toolbarbutton-icon,
