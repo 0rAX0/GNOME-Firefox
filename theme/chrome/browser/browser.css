@@ -848,7 +848,7 @@ toolbar[iconsize="small"] #stop-button[disabled="true"] {
   list-style-image: url("moz-icon://stock/gtk-stop?size=menu&state=disabled");
 }
 
-toolbar[iconsize="small"] #reload-button {
+toolbar[iconsize="small"] #reload-button {a
   list-style-image: url("moz-icon://stock/gtk-refresh?size=menu");
 }
 toolbar[iconsize="small"] #reload-button[disabled="true"] {
