@@ -44,5 +44,5 @@ body[dir="rtl"] #moreInfo {
 
 a#moreInfoLink
 {
-  color: rgb(46,52,54) !important;
+  color: rgb(46,52,54) ;
 }
