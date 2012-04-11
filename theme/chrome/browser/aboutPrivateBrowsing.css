@@ -27,7 +27,6 @@ body.normal > #errorPageContainer {
   font-size: 100%; /* to match the value set in chrome://global/skin/netError.css */
   -moz-padding-start: 25px;
   background: url("chrome://browser/skin/symbolic-icons/important.svg") no-repeat top left;
-  padding-top: 3px;
 }
 
 body[dir="rtl"] #moreInfo {
