@@ -967,6 +967,8 @@ toolbar[iconsize="small"] #feed-button {
   padding: 2px;
   box-shadow: inset 0px 1px 2px 0px rgba(0,0,0,0.15),
   		    0px 1px 0 0 rgba(255,255,255,0.89);
+  -moz-transition-property: border, box-shadow;
+  -moz-transition-duration: 300ms;
 }
 
 #urlbar[focused="true"],

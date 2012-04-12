@@ -1,11 +1,11 @@
-color#appmenu-toolbar-button > dropmarker{
+#appmenu-toolbar-button > dropmarker{
     display: none;
 }
 toolbar:not([mode="text"]) #appmenu-toolbar-button > .toolbarbutton-icon,
 
 toolbar:not([mode="text"]) #appmenu-button > .button-box .button-icon {
 
-      list-style-image: url("chrome://browser/skin/symbolic/gear.png") !important ;
+      list-style-image: url("chrome://browser/skin/symbolic-icons/gear.png") !important ;
 
 }
 
