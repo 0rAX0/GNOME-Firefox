@@ -32,6 +32,9 @@
   border: 0;
   -moz-box-align: center;
   background-color: transparent;
+  background-image: none;
+  padding: 0;
+  box-shadow: none;
 }
 
 .searchbar-engine-button > .button-box {

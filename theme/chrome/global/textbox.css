@@ -87,6 +87,11 @@ html|*.textbox-textarea:-moz-placeholder {
 textbox[readonly="true"] {
   background-color: -moz-Dialog;
   color: -moz-DialogText;
+  border: none;
+  border-radius: 0px;
+  background-image: none;
+  padding: 0px;
+  box-shadow: none;
 }
 
 /* ..... disabled state ..... */
