@@ -1,11 +1,11 @@
 # GNOME 3 theme for Firefox, with better integration.
 ---
 
-###Forked from : 
+##Forked from : 
 
 https://github.com/adwaita-firefox-team/adwaita-firefox
 
-###Original extension:
+##Original extension:
 
 https://addons.mozilla.org/en-US/firefox/addon/adwaita/
 
