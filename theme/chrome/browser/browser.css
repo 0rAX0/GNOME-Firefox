@@ -852,7 +852,8 @@ toolbar[iconsize="small"] #reload-button {a
   list-style-image: url("chrome://browser/skin/symbolic-icons/refresh.svg");
 }
 toolbar[iconsize="small"] #reload-button[disabled="true"] {
-  opacity: 0.5;}
+  opacity: 0.5;
+}
 
 toolbar[iconsize="small"] #home-button,
 #home-button.bookmark-item {
