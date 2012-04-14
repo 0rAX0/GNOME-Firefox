@@ -800,7 +800,7 @@ toolbar[iconsize="small"] .toolbarbutton-1[type="menu-button"] {
 }
 
 toolbar[iconsize="small"] #back-button {
-  list-style-image: url("moz-icon://stock/gtk-go-back-ltr?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/back-button.svg");
 }
 .unified-nav-back[_moz-menuactive] {
   list-style-image: url("moz-icon://stock/gtk-go-back-ltr?size=menu") !important;
@@ -821,7 +821,7 @@ toolbar[iconsize="small"] #back-button[disabled="true"]:-moz-locale-dir(rtl) {
 
 toolbar[iconsize=small] #forward-button,
 window:not([chromehidden~=toolbar]) :-moz-any(#nav-bar[currentset*="unified-back-forward-button,urlbar-container"][mode=icons][iconsize=small],#nav-bar:not([currentset])[mode=icons][iconsize=small]) > #unified-back-forward-button > #forward-button {
-  list-style-image: url("moz-icon://stock/gtk-go-forward-ltr?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/forward-button.svg");
 }
 .unified-nav-forward[_moz-menuactive] {
   list-style-image: url("moz-icon://stock/gtk-go-forward-ltr?size=menu") !important;
@@ -842,26 +842,25 @@ toolbar[iconsize=small] #forward-button[disabled]:-moz-locale-dir(rtl) {
 }
 
 toolbar[iconsize="small"] #stop-button {
-  list-style-image: url("moz-icon://stock/gtk-stop?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/stop.svg");
 }
 toolbar[iconsize="small"] #stop-button[disabled="true"] {
-  list-style-image: url("moz-icon://stock/gtk-stop?size=menu&state=disabled");
+  opacity: 0.5;
 }
 
 toolbar[iconsize="small"] #reload-button {a
-  list-style-image: url("moz-icon://stock/gtk-refresh?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/refresh.svg");
 }
 toolbar[iconsize="small"] #reload-button[disabled="true"] {
-  list-style-image: url("moz-icon://stock/gtk-refresh?size=menu&state=disabled");
-}
+  opacity: 0.5;}
 
 toolbar[iconsize="small"] #home-button,
 #home-button.bookmark-item {
-  list-style-image: url("moz-icon://stock/gtk-home?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/home.svg");
 }
 toolbar[iconsize="small"] #home-button[disabled="true"],
 #home-button.bookmark-item[disabled="true"] {
-  list-style-image: url("moz-icon://stock/gtk-home?size=menu&state=disabled");
+  opacity: 0.5;
 }
 
 toolbar[iconsize="small"] #downloads-button {
