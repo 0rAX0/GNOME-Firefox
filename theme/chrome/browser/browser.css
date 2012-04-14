@@ -713,7 +713,8 @@ margin-right: -21px;
 
 #bookmarks-button,
 #bookmarks-menu-button {
-  -moz-image-region: rect(0px 72px 24px 48px);
+  list-style-image: url("chrome://browser/skin/symbolic-icons/bookmarks.svg");
+
 }
 
 #bookmarks-menu-button.bookmark-item {
@@ -761,15 +762,17 @@ margin-right: -21px;
 }
 
 #fullscreen-button {
-  list-style-image: url("moz-icon://stock/gtk-fullscreen?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/fullscreen.svg");
+
 }
 
 #zoom-out-button {
-  list-style-image: url("moz-icon://stock/gtk-zoom-out?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-out.svg");
+
 }
 
 #zoom-in-button {
-  list-style-image: url("moz-icon://stock/gtk-zoom-in?size=toolbar");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-in.svg");
 }
 
 #sync-button {
@@ -875,7 +878,7 @@ toolbar[iconsize="small"] #history-button {
 toolbar[iconsize="small"] #bookmarks-button,
 toolbar[iconsize="small"] #bookmarks-menu-button,
 #bookmarks-menu-button.bookmark-item {
-  -moz-image-region: rect(0px 48px 16px 32px);
+  list-style-image: url("chrome://browser/skin/symbolic-icons/bookmarks.svg");
 }
 
 toolbar[iconsize="small"] #print-button {
@@ -915,20 +918,21 @@ toolbar[iconsize="small"] #paste-button[disabled="true"] {
 }
 
 toolbar[iconsize="small"] #fullscreen-button {
-  list-style-image: url("moz-icon://stock/gtk-fullscreen?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/fulscreen.svg");
 }
 
 toolbar[iconsize="small"] #zoom-out-button {
-  list-style-image: url("moz-icon://stock/gtk-zoom-out?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-out.svg");
 }
 
 toolbar[iconsize="small"] #zoom-in-button {
-  list-style-image: url("moz-icon://stock/gtk-zoom-in?size=menu");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/zoom-in.svg");
 }
 
 toolbar[iconsize="small"] #sync-button {
   -moz-image-region: rect(0px 96px 16px 80px);
 }
+
 toolbar[iconsize="small"] #sync-button[status="active"] {
   list-style-image: url("chrome://browser/skin/sync-16-throbber.png");
   -moz-image-region: rect(0px 16px 16px 0px);
@@ -1196,7 +1200,7 @@ window:not([chromehidden~=toolbar]) :-moz-any(#nav-bar[currentset*="unified-back
 
 #identity-popup-content-box.verifiedIdentity > #identity-popup-encryption > vbox > #identity-popup-encryption-icon ,
 #identity-popup-content-box.verifiedDomain > #identity-popup-encryption > vbox > #identity-popup-encryption-icon {
-  list-style-image: url("chrome://browser/skin/Secure.png");
+  list-style-image: url("chrome://browser/skin/symbolic-icons/secure.svg");
 }
 
 /* Identity popup bounding box */
