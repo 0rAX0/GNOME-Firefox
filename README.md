@@ -15,11 +15,11 @@ Help & feedback are both appreciated! ;-)
 
 ## Screenshots
 
-Tabs on bottom:
+###Tabs on bottom:
 
 ![Screenshot](GNOME-Firefox/raw/master/screenshots/Tabsonbottom.png)
 
-About:xxx example:
+###About:xxx example:
 
 ![Screenshot](GNOME-Firefox/raw/master/screenshots/About-private.png)
 
