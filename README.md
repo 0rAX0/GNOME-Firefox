@@ -18,3 +18,9 @@ Help & feedback are both appreciated! ;-)
 Tabs on bottom:
 
 ![Screenshot](GNOME-Firefox/raw/master/screenshots/Tabsonbottom.png)
+
+About:xxx example:
+
+![Screenshot](GNOME-Firefox/raw/master/screenshots/About-private.png)
+
+
