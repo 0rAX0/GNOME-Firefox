@@ -10,6 +10,8 @@ toolbar:not([mode="text"]) #appmenu-button > .button-box .button-icon {
 
 #appmenu-toolbar-button{
   margin-left: 5px!important;
+  margin-right: -5px!important;
+  
 }
 
 
@@ -48,4 +50,3 @@ toolbar:not([mode="text"]) #appmenu-button > .button-box .button-icon {
   background-color: white!important;
   border-radius: 3px 3px 0 0 !important;
 }
-
