@@ -5,15 +5,13 @@
 
 #warningScreen
 {
-  background-color: -moz-Dialog;
+	font: 11pt cantarell;
+	background-color: #f6f6f4;
+	background-image: -moz-linear-gradient(top, #eeeeec, #f6f6f4);
 }
 
 #warningBox
 {
-  background-color: -moz-Field;
-  color: -moz-FieldText;
-  border: 1px solid ThreeDShadow;
-  border-radius: 10px;
   padding: 3em;
   -moz-padding-start: 30px;
   margin-left: 1em;
@@ -29,7 +27,8 @@
 {
   margin: 0 0 .6em 0;
   font-size: 160%;
-  border-bottom: 1px solid ThreeDLightShadow
+  color: #babdb6;
+  text-shadow: 0 1px 0 white;
 }
 
 #warningText
@@ -48,10 +47,8 @@
   margin-top: 0.6em;
 }
 
-#exclam
-{
-  list-style-image: url("moz-icon://stock/gtk-dialog-warning?size=dialog");
-  -moz-margin-end: 3em;
+#exclam{
+
 }
 
 #configTreeBody::-moz-tree-cell-text(user)

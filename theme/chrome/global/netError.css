@@ -5,14 +5,13 @@ html {
 body {
   margin: 0;
   padding: 0;
-          font: 11pt cantarell;
-        color: #2e3436;
-        padding: 20px 20px 0 20px;
-        background-color: #f6f6f4;
-        background-image: -moz-linear-gradient(top, #eeeeec, #f6f6f4);
-        background-size: 100% 5em;
-        background-repeat: no-repeat;
-        ::-moz-selection{background:red; color:#fff;}
+	font: 11pt cantarell;
+	color: #2e3436;
+	padding: 20px 20px 0 20px;
+	background-color: #f6f6f4;
+	background-image: -moz-linear-gradient(top, #eeeeec, #f6f6f4);
+	background-size: 100% 5em;
+	background-repeat: no-repeat;
 }
 
 h1 {
