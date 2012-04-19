@@ -28,11 +28,11 @@
 #navigator-toolbox[tabsontop=false] > toolbar:not(:-moz-lwtheme):not(#toolbar-menubar) {
   -moz-appearance: none;
   border-style: none;
-  background-color: -moz-Dialog;
+  background-color: #EDEDED;
 }
 
 #navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar) {
-  background: -moz-linear-gradient(top, #ababa0, #bbbbb3 13%, #d8d8d6 92%, #e2e2df);
+/*  background: -moz-linear-gradient(top, #ababa0, #bbbbb3 13%, #d8d8d6 92%, #e2e2df); */
 }
 
 #navigator-toolbox[tabsontop=false] > toolbar:not(#toolbar-menubar):not(#TabsToolbar) {
@@ -40,7 +40,7 @@
 }
 
 #navigator-toolbox[tabsontop=false] > #nav-bar {
-  background: -moz-linear-gradient(top, #EDEDED, #EDEDED) !important;
+  background-color: #EDEDED;
   
 }
 
@@ -65,8 +65,8 @@
 
 /* Restyle bookmark bars -- tabs on bottom */
 #navigator-toolbox[tabsontop=false] #PersonalToolbar {
-  background: none !important;
-  border: none !important;
+/*  background: none !important;
+  border: none !important;*/
   padding-bottom: 0;
 }
 
@@ -1553,8 +1553,9 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 #TabsToolbar[tabsontop=false] {
   margin-top: 4px; /* margin between tabs and browser bar */
-  border-bottom: 3px solid red !important;
+  /* border-bottom: 3px solid red !important;
   -moz-border-bottom-colors: #a7a7a7 #fff #fff;
+  */
 }
 
 /* put some space between the newtab-button and regular tabs */
